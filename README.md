@@ -2,17 +2,14 @@
   <canvas> 是 HTML5 新增的元素，并且被大多数浏览器（甚至Internet Explorer 9测试版）支持的2D绘图API）。
   可用于通过使用JavaScript中的脚本来绘制图形。例如，它可以用于绘制图形，制作照片，创建动画，甚至可以进行实时视频处理或渲染。  
   
-  Mozilla 程序从 Gecko 1.8 (Firefox 1.5) 开始支持 <canvas>。
-  它首先是由 Apple 引入的，用于 OS X Dashboard 和 Safari。
-  Chrome、Apple Safari和Opera 9+ 以及Mozilla Firefox等大多数浏览器都支持 <canvas>。
-  Internet Explorer 从IE9开始<canvas> ，更旧版本的IE可以引入 Google 的 Explorer Canvas 项目中的脚本来获得<canvas>支持。
-  这个补丁的前提是创建使用 JavaScript 代码的元素。例如，可以使用代码段 document.createElement('canvas') 创建一个可识别的 Canvas 标记；但是，这并不意味着有东西经过元素本身 。一个流行的解决方法是包含一个完整的基于 canvas 的 JavaScript 库，这个库由 Google 提供，称为 ExplorerCanvas— 或简称 excanvas。下载并将其作为一个外部文件引用，如下所示。   
-  
-  `<!--[if IE]>   
-  
-  `  <script type="text/javascript" src="excanvas.js"></script>   
-  
-  `<![endif]-->   
+  Mozilla 程序从 Gecko 1.8 (Firefox 1.5) 开始支持 <canvas>。   
+  它首先是由 Apple 引入的，用于 OS X Dashboard 和 Safari。  
+  Chrome、Apple Safari和Opera 9+ 以及Mozilla Firefox等大多数浏览器都支持 <canvas>。   
+  Internet Explorer 从IE9开始<canvas> ，更旧版本的IE可以引入 Google 的 Explorer Canvas 项目中的脚本来获得<canvas>支持。   
+  这个补丁的前提是创建使用 JavaScript 代码的元素。例如，可以使用代码段 document.createElement('canvas') 创建一个可识别的 Canvas 标记；但是，这并不意味着有东西经过元素本身 。一个流行的解决方法是包含一个完整的基于 canvas 的 JavaScript 库，这个库由 Google 提供，称为 ExplorerCanvas— 或简称 excanvas。下载并将其作为一个外部文件引用，如下所示。   
+  <!--[if IE]>   
+    <script type="text/javascript" src="excanvas.js"></script>   
+  <![endif]-->   
   
   
 
